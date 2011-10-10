@@ -1,0 +1,27 @@
+Supervised Learning
+	Data set contains right answers
+	Choose more "right answers"
+	Regression problem - predict continuous value
+		How to choose whether to use linear regression or quadratic?
+	Classification problem - predict discrete value (e.g., 0 or 1)
+		Feature - attribute
+		Example: breast tumor -> malignant or benign
+			size -> classification
+			size/age -> classification
+				find linear formula that separates two sets
+		Possible to use an infinite number of features
+			Support Vector Machine?
+Unsupervised Learning
+	Data isn't labeled
+	Try to find some structure in the data
+		Clustering of items
+			e.g. Google News
+			e.g. gene expressions
+			e.g. social network analysis
+			e.g. market segmentation
+				Don't know whawt the market segments are in advance
+			e.g. astronomical analysis?
+		Cocktail Party Problem
+			two speakers, two microphones => separates audio streams
+			one line of code in Octave
+				linear algebra
