@@ -27,15 +27,24 @@ Unsupervised Learning
 				linear algebra
 
 Linear Regression with One Variable
-	House Sizes and Prices
-		Predict price from size
-	Training Set
-		m = number of training examples
-		x's = input variables, features - independent variables
-		y's = output variables, target variables - dependent variables
-		(x,y) = one training example
-		(x^i, y^i) - ith training example
-	Feed Training to Learning Algorithm
-	Learning Algorithm outputs a function h (hypothesis) that maps x's to y's
-	h_θ(x) = θ_0 + θ_1x
-	univariate linear regression - one variable, x
+	Model Representation
+		House Sizes and Prices
+			Predict price from size
+		Training Set
+			m = number of training examples
+			x's = input variables, features - independent variables
+			y's = output variables, target variables - dependent variables
+			(x,y) = one training example
+			(x^i, y^i) - ith training example
+		Feed Training to Learning Algorithm
+		Learning Algorithm outputs a function h (hypothesis) that maps x's to y's
+		h_θ(x) = θ_0 + θ_1x
+		univariate linear regression - one variable, x
+	Cost Function
+		θ_i's - parameters
+		How to fit the best possible straight line to our data
+			How to choose parameters
+				Choose θ_0, θ_1 so h(x) is close to y for our training examples (x,y)
+				Solve minimization problem
+					We want (h(x) - y)^2 to be small
+					squared error function: 1/(2m)∑(h_θ(x^i)-y^i)^2
